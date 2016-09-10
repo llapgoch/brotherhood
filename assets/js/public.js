@@ -37,15 +37,15 @@ jQuery(document).ready(function($) {
     jQuery('.hasimglogo .nav.navbar-nav').css({ "padding-top": navbarwithimglogopadding });
     jQuery('.hasimglogo .nav.navbar-nav').css({ "padding-bottom": navbarwithimglogopadding });
     
-    jQuery("html").niceScroll({
-		cursorcolor: "#1a1a1a",
-		cursorborder: "#1a1a1a",
-		cursoropacitymin: 0.2,
-		cursorwidth: 10,
-		zindex: 10,
-		scrollspeed: 60,
-		mousescrollstep: 40
-	});
+    // jQuery("html").niceScroll({
+	// 	cursorcolor: "#1a1a1a",
+	// 	cursorborder: "#1a1a1a",
+	// 	cursoropacitymin: 0.2,
+	// 	cursorwidth: 10,
+	// 	zindex: 10,
+	// 	scrollspeed: 60,
+	// 	mousescrollstep: 40
+	// });
 		
 	
 	jQuery('body').scrollspy({ 
