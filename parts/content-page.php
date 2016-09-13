@@ -1,5 +1,5 @@
 <div <?php post_class('content row'); ?>>
-    <div class="col-sm-8 content-column">
+    <div class="content-column">
         <?php 
         the_content();
         ember_clear();
@@ -8,6 +8,6 @@
         ?>
     </div>
     <div class="col-sm-4 sidebar">
-        <?php get_sidebar(); ?>
+        <?php // get_sidebar(); ?>
     </div>
 </div>

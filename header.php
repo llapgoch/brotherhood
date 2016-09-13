@@ -13,4 +13,4 @@
                 <?php get_template_part( 'parts/header', 'menu'); ?>
             </div>
         </header>
-        <?php get_template_part( 'parts/header','banner'); ?>
+        <?php  get_template_part( 'parts/header','banner'); ?>

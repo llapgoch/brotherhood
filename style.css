@@ -129,7 +129,7 @@ select { padding: 4px; border:1px solid #b6b6b6; background: #fff; -webkit-borde
 
 .tax_tags{padding:25px 0;border-top:1px solid #FF7E00;border-bottom:1px solid #FF7E00;margin:30px 0;}
 .single_post_nav a {color:#FF7E00;}
-.content-column{background: #fff;border: 1px solid #cacaca;padding: 30px;margin-top:40px;margin-bottom:40px;}
+.content-column{background: #fff;border: 1px solid #cacaca;padding: 30px;margin-top:63px;margin-bottom:40px;}
 .sidebar,.blog-content-container{margin-top:40px;margin-bottom:40px;}
 
 
@@ -438,3 +438,126 @@ Responsive
         float: none;
     }
 }
+
+.frontpage-banner{
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 40vh !important;
+    /*background-color: black !important;*/
+}
+
+.frontpage-banner .btn-ember{
+    padding: 10px 15px;
+    margin-top: 50px;
+}
+
+/* MAP */
+.basic-content{
+    background: #081617;
+}
+
+.main-map{
+
+    width: 70%;
+}
+
+@media(max-width: 640px) {
+    .basic-content {
+        padding: 0 2%;
+    }
+
+    .main-map{
+        width: 100%;
+    }
+}
+
+a.accent:hover{
+    color: #00a8c6;
+}
+
+.map-container .band-list{
+    border: 1px solid #8c7a5f;
+}
+
+.map-container .band-inner{
+    overflow: scroll;
+}
+
+.map-container .band-inner .bands{
+    list-style: none;
+    padding: 0;
+}
+
+.map-container .band-inner .band-item{
+    border-bottom: 1px solid #281b17;
+}
+
+.map-container .band-inner .band-item a{
+    padding: 8px;
+    display: block;
+    color: whitesmoke;
+}
+
+.map-container .band-inner .band-item a:hover,
+.map-container .band-inner .band-item a.is-active{
+    color: white;
+}
+
+.map-container .band-inner .band-item:nth-child(2n){
+    background: #281b17;
+}
+
+.map-container .utils{
+    padding-top: 2px;
+}
+
+@media(max-width: 640px) {
+    .main-map{
+        height: 42vh;
+    }
+
+    .band-list .band-inner{
+        max-height: 24vh;
+    }
+
+    .footer-links{
+        text-align: center;
+    }
+}
+
+@media(min-width: 640px) {
+    .map-container {
+        display: flex;
+        padding: 20px;
+        height: calc(90vh - 60px);
+    }
+
+    .map-container .band-list{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .band-list{
+        display: flex;
+    }
+
+    .band-list .band-inner{
+        flex: 2;
+    }
+
+    .band-list .utils{
+        flex: 0
+        padding-top: 0;
+    }
+}
+
+.map-info-content .social{
+    margin-top: 10px
+}
+
+.map-info-content .social .item span{
+    margin-right: 5px;
+}
+
