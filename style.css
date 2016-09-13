@@ -463,7 +463,7 @@ Responsive
 
 @media(max-width: 640px) {
     .basic-content {
-        padding: 0 2%;
+        padding: 20px;
     }
 
     .main-map{
