@@ -480,7 +480,7 @@ a.accent:hover{
 }
 
 .map-container .band-inner{
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 .map-container .band-inner .bands{
