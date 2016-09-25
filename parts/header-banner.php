@@ -7,6 +7,7 @@ if(is_front_page()):
     <section class="ssbanner frontpage-banner <?php if(isset($parallax_active)){echo $parallax_active;} ?>" <?php if(isset($ember_parallax)){echo $ember_parallax;} ?>>
         <div class="container">
             <div class="banner-wrap" data-sr='wait 0.4s, scale up 25%'>
+                <div class="logo"><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/brotherhood-logo.png" /></div>
                 <div class="banner-title">Find Bands In Your Area</div>
 <!--                <div class="banner-sub-title">Find Bands In Your Area</div>-->
                 <div class="banner-link-button"><a class="btn-ember" href="#">Go To The Map</a></div>

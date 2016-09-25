@@ -442,7 +442,7 @@ Responsive
 .frontpage-banner{
     height: 100vh;
     box-sizing: border-box;
-    padding-top: 40vh !important;
+    padding-top: 20vh !important;
     /*background-color: black !important;*/
 }
 
@@ -565,3 +565,11 @@ a.accent:hover{
     margin-right: 5px;
 }
 
+.banner-title {
+    margin-top: -100px;
+    text-shadow: 4px 2px 4px #000;
+}
+
+.banner-wrap .logo {
+    text-align: center;
+}
