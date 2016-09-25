@@ -448,7 +448,7 @@ Responsive
 
 .frontpage-banner .btn-ember{
     padding: 10px 15px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 /* MAP */
@@ -570,8 +570,8 @@ a.accent:hover{
 }
 
 .banner-title {
-    margin-top: -100px;
-    text-shadow: 4px 2px 4px #000;
+    margin-top: -63px;
+    text-shadow: 4px 2px 15px #000;
 }
 
 .banner-wrap .logo {
