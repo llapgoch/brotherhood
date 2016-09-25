@@ -531,6 +531,10 @@ a.accent:hover{
     .fallback_cb>ul>li>a {
         padding: 15px 6px 6px !important;
     }
+
+    .banner-title {
+        font-size: 30px;
+    }
 }
 
 @media(min-width: 640px) {
@@ -558,10 +562,6 @@ a.accent:hover{
     .band-list .utils{
         flex: 0
         padding-top: 0;
-    }
-
-    .banner-title {
-        font-size: 30px;
     }
 }
 
